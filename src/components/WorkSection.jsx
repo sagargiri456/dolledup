@@ -7,12 +7,12 @@ const WorkSection = () => {
   const workItems = [
     { title: "Elegant Bridal Makeup", category: "bridal", image: "https://dimplemakeovers.in/wp-content/uploads/2024/10/WhatsApp-Image-2024-10-22-at-18.13.31-1-1.jpeg" },
     { title: "Fashion Editorial", category: "editorial", image: "https://i.pinimg.com/736x/87/03/83/87038338ba5c2ed656e229d5ec03788d.jpg" },
-    { title: "Fantasy Creature", category: "specialfx", image: "https://i.pinimg.com/564x/11/72/8f/11728f535c43f7359c030bc2890bcafe.jpg" },
-    { title: "Vintage Updo", category: "hair", image: "https://hips.hearstapps.com/hmg-prod/images/gettyimages-119119790-1555698846.jpg" },
+    { title: "Fantasy Creature", category: "specialfx", image: "./src/images/1.png" },
+    { title: "Vintage Updo", category: "hair", image: "./src/images/2.png" },
     { title: "Traditional Bridal", category: "bridal", image: "https://i.pinimg.com/1200x/e1/05/a8/e105a88ff63f2adb50fa7ce64fbd784c.jpg" },
-    { title: "High Fashion", category: "editorial", image: "https://i.pinimg.com/564x/af/8b/cb/af8bcb3b539de426bc8acd4b571ad1a3.jpg" },
-    { title: "Modern Braids", category: "hair", image: "https://www.fabmood.com/inspiration/wp-content/uploads/2024/12/Fulani_braids_85743416937402.jpg" },
-    { title: "Aging Effect", category: "specialfx", image: "https://i.pinimg.com/736x/35/6f/2d/356f2d3cce38f4e45cf4f8e104edb572.jpg" }
+    { title: "High Fashion", category: "editorial", image: "./src/images/3.jpg" },
+    { title: "Modern Braids", category: "hair", image: "./src/images/4.png" },
+    { title: "Aging Effect", category: "specialfx", image: "./src/images/5.png" }
   ];
 
   const filteredItems = activeFilter === 'all' ? workItems : workItems.filter(item => item.category === activeFilter);
